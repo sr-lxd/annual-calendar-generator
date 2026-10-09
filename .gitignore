@@ -1,0 +1,23 @@
+# Workbooks may contain personally identifiable information
+*.xlsx
+*.xls
+
+# Generated birthday configuration contains names and dates
+config*.ini
+!config.sample.ini
+
+# Track only the generic, sanitized festival example
+festivals*.ini
+!festivals.ini
+
+# Local Python and build artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.original
+build/
+dist/
+*.spec
+*.exe
