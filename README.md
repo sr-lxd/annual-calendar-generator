@@ -1,5 +1,11 @@
 # 年历生成器
 
+<!-- en-intro -->
+**Annual Calendar Generator** — a Windows desktop tool that renders a whole-year A4 calendar into Excel, with lunar dates, the 24 solar terms and birthday marks.
+<!-- /en-intro -->
+
+---
+
 这是一个 Windows 桌面程序，可按指定年份生成一张 Excel 年历。主程序为 `年历生成器v0.35.py`。它把 12 个月排成 3 列、4 行，显示公历日期、农历日期、二十四节气和可选生日，并按 A4 纵向页面设置。
 
 仓库也保留了 `sofia万年历生成器v0.18.py` 作为辅助工具。它根据本地 Excel 名单生成生日配置，供年历主程序读取。主程序本身不读取身份证号码。
